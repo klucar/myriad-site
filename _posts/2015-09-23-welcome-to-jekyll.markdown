@@ -5,7 +5,7 @@ date:   2015-09-23 12:47:37
 author: test author
 categories: jekyll update
 blurb: "Jekyll is cool, read about it here."
-permalink: /blog/2015/09/23/welcome
+permalink: {{ site.baseurl }}/blog/2015/09/23/welcome
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your BLARGH. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
