@@ -1,0 +1,20 @@
+<div class="mdl-grid">
+<div class="mdl-cell--1-col"></div>
+<div class="mdl-cell mdl-cell--11-col">
+  <h3 class="mdl-typography--title"><a href="/news/">News</a></h3>
+
+  {% for post in site.posts %}
+  <div class="mdl-typography--body-2-color-contrast">
+    {{ post.title }}
+  </div>
+  <div class="mdl-typography--body">
+  {{ post.blurb }}
+  </div>
+  <div class="mdl-typography--caption">
+  {{ post.date }}
+  </div>
+  <hr/>
+  {% endfor %}
+
+</div>
+</div>

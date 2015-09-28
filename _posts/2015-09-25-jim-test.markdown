@@ -1,0 +1,17 @@
+---
+layout: big_card
+title:  "IT WORKS!"
+date:   2015-09-25 00:00:00
+blurb: "Myriad 1.0-incubating released"
+author: jim
+categories: post
+---
+Some test markdown, from jimbo
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+{% highlight java %}
+public static void main(String args[]){
+  System.out.println("Hello World!")
+}
+{% endhighlight %}
