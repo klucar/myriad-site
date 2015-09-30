@@ -23,6 +23,11 @@ dl, dd, ol, ul, figure {
 .mdl-color-text--myriad {
   color: #34B6E4 !important; }
 
+.mdl-layout__drawer-button i {
+  color: #34B6E4 !important;
+  }
+
+
 .myriad-content {
   min-height: calc(90vh - 32px - 76px - 56px);
 }
@@ -33,9 +38,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-.mdl-layout__drawer-button i {
-  color: #34B6E4 !important;
-}
 
 /**
  * Basic styling
