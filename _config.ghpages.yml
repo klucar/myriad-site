@@ -1,5 +1,0 @@
-# Site settings
-# This is meant to be used to build the gh-pages version of the site for previewing on gh-pages
-# jekyll build --config _config.yml,_config.ghpages.yml
-baseurl: "/myriad-site" # the subpath of your site, e.g. /blog/
-url: "http://klucar.github.io" # the base hostname & protocol for your site
